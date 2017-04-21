@@ -1,0 +1,26 @@
+$cor-texto: #f00;
+$cor-titulos: #eeeeee;
+$cor-subtitulos: #333333;
+$cor-fundo: #f0f;
+$cor-radape: orange;
+
+
+body{
+	background-color: $cor-fundo;
+}
+
+h1{
+	color: $cor-titulos;
+}
+
+h2{
+	color: $cor-subtitulos;
+}
+
+p{
+	color: $cor-texto;
+}
+
+footer{
+	background-color: $cor-subtitulos;
+}
