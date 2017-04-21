@@ -1,0 +1,20 @@
+body {
+  background-color: #e1e2e1 !important; }
+
+.navbar {
+  background-color: #c4001d !important;
+  border-color: #000000 !important; }
+
+.navbar-brand {
+  color: #000000 !important; }
+
+.jumbotron {
+  background-color: #ff1744 !important;
+  color: #000000 !important; }
+
+.btn-default {
+  color: #ffffff !important;
+  background-color: #212121 !important;
+  border-color: #ffffff !important; }
+
+/*# sourceMappingURL=style.css.map */

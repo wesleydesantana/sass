@@ -1,0 +1,32 @@
+
+$primary: #ff1744 !important;
+$primary_light: #ff616f !important;
+$primary_dark: #c4001d !important;
+$primary_text: #000000 !important;
+$primary_content: #e1e2e1 !important;
+
+$secondary: #212121 !important;
+$secondary_light: #484848 !important;
+$secondary_dark: #000000 !important;
+$secondary_text: #ffffff !important;
+
+body{
+	background-color: $primary_content;
+}
+.navbar{
+    background-color: $primary_dark;
+    border-color: $primary_text;
+}
+.navbar-brand{
+	color: $primary_text;
+}
+.jumbotron{
+	background-color: $primary;
+	color: $primary_text;
+}
+
+.btn-default {
+    color: $secondary_text;
+    background-color: $secondary;
+    border-color: $secondary_text;
+}
