@@ -1,26 +1,59 @@
-$cor-texto: #f00;
-$cor-titulos: #eeeeee;
-$cor-subtitulos: #333333;
-$cor-fundo: #f0f;
-$cor-radape: orange;
-
+/*Primary colors*/
+$primary: #7e57c2 !important;
+$primary_light: #b085f5 !important;
+$primary_dark: #4d2c91 !important;
+$primary_text: #ffffff !important;
+$primary_content: #e1e2e1 !important;
+/*Secondary colors*/
+$secondary: #ff6f00 !important;
+$secondary_light: #ffa040 !important;
+$secondary_dark: #c43e00 !important;
+$secondary_text: #000000 !important;
 
 body{
-	background-color: $cor-fundo;
+	background-color: $primary_content;
 }
 
-h1{
-	color: $cor-titulos;
+.header{
+	background-color: $primary_dark;
 }
 
-h2{
-	color: $cor-subtitulos;
+.text-muted{
+	color: $primary_text;
+	margin: 1em;
 }
 
-p{
-	color: $cor-texto;
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: $primary_text;
+    background-color: $primary_light;
 }
 
-footer{
-	background-color: $cor-subtitulos;
+.nav-pills > a:hover{
+     background-color: $primary_light;
+}
+
+.nav-pills a{
+	color: $primary_text;
+}
+
+nav > li > a:hover, .nav > li > a:focus {
+    background-color: $primary_light;
+}
+nav  li  a:hover {
+    text-decoration: none;
+    background-color: $primary_light;
+}
+.jumbotron{
+	color: $primary_text;
+	background-color: $primary;
+	border-radius: 0px !important;
+}
+.btn-success {
+    color: $secondary_text;
+    background-color: $secondary;
+    border-color: $secondary;
+}
+
+h4{
+	color: $secondary_text
 }

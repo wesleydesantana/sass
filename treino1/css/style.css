@@ -1,16 +1,43 @@
+/*Primary colors*/
+/*Secondary colors*/
 body {
-  background-color: #f0f; }
+  background-color: #e1e2e1 !important; }
 
-h1 {
-  color: #eeeeee; }
+.header {
+  background-color: #4d2c91 !important; }
 
-h2 {
-  color: #333333; }
+.text-muted {
+  color: #ffffff !important;
+  margin: 1em; }
 
-p {
-  color: #f00; }
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #ffffff !important;
+  background-color: #b085f5 !important; }
 
-footer {
-  background-color: #333333; }
+.nav-pills > a:hover {
+  background-color: #b085f5 !important; }
+
+.nav-pills a {
+  color: #ffffff !important; }
+
+nav > li > a:hover, .nav > li > a:focus {
+  background-color: #b085f5 !important; }
+
+nav li a:hover {
+  text-decoration: none;
+  background-color: #b085f5 !important; }
+
+.jumbotron {
+  color: #ffffff !important;
+  background-color: #7e57c2 !important;
+  border-radius: 0px !important; }
+
+.btn-success {
+  color: #000000 !important;
+  background-color: #ff6f00 !important;
+  border-color: #ff6f00 !important; }
+
+h4 {
+  color: #000000 !important; }
 
 /*# sourceMappingURL=style.css.map */
