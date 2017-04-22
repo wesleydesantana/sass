@@ -1,0 +1,44 @@
+$primary: #64dd17 !important;
+$primary_light: #9cff57 !important;
+$primary_dark: #1faa00 !important;
+$primaty_text: #000000 !important;
+
+$secondary: #9575cd !important;
+$secondary_light: #c7a4ff !important;
+$secondary_dark: #65499c !important;
+$secondary_text: #000000 !important;
+
+
+//Refêrencia ao seletor pai
+
+a{
+	color: $primary_dark;
+	text-decoration: underline;
+
+	&:hover{
+		color: $secondary_dark;
+	}
+}
+
+
+.blog-masthead{
+	background-color: $primary_light;
+	.container{
+		background-color: $secondary;
+		a{
+			color: $primaty_text;
+		}
+	}
+}
+
+.lateral{
+	background-color: $primary_light;
+	&-menu{
+		color: $secondary_text;
+	}
+
+	.social{
+		color: $primaty_text;
+	}
+
+}

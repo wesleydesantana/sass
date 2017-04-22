@@ -1,0 +1,21 @@
+a {
+  color: #1faa00 !important;
+  text-decoration: underline; }
+  a:hover {
+    color: #65499c !important; }
+
+.blog-masthead {
+  background-color: #9cff57 !important; }
+  .blog-masthead .container {
+    background-color: #9575cd !important; }
+    .blog-masthead .container a {
+      color: #000000 !important; }
+
+.lateral {
+  background-color: #9cff57 !important; }
+  .lateral-menu {
+    color: #000000 !important; }
+  .lateral .social {
+    color: #000000 !important; }
+
+/*# sourceMappingURL=style.css.map */
