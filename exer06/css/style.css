@@ -1,0 +1,15 @@
+div {
+  border-color: #f44336 !important;
+  border-width: 2px;
+  border-style: dotted; }
+
+.container {
+  background-color: #f44336 !important;
+  background-repeat: repeat-x;
+  background-postion: center left;
+  font-size: 14px;
+  font-family: Arial;
+  font-style: italic;
+  font-variant: small-caps; }
+
+/*# sourceMappingURL=style.css.map */

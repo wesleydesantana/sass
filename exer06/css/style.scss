@@ -1,0 +1,42 @@
+//Propridade em namespace
+
+
+//Cores primarias
+$primary: #f44336 !important;
+$primary_light: #ff7961 !important;
+$primary_dark: #ba000d !important;
+$primary_text: #000000 !important;
+
+//Cores secundarias
+$secondary: #00695c !important;
+$secondary_light: #439889 !important;
+$secondary_dark: #003d33 !important;
+$secondary_text: #ffffff !important;
+
+$border_size : 2px;
+$border_style: dotted;
+$text-size: 14px;
+div{
+	border:{
+		color: $primary;
+		width: $border_size;
+		style: $border_style;
+
+	}
+}
+
+.container{
+	background:{
+		color: $primary;
+		//image: url();
+		repeat: repeat-x;
+		postion: center left;
+	}
+
+	font:{
+		size: $text-size;
+		family: Arial;
+		style: italic;
+		variant: small-caps;
+	}
+}
