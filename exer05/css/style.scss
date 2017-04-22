@@ -1,0 +1,39 @@
+//Interpolação #{}
+
+$versao: '1.0.2';
+$data: '20/02/2016';
+$class: lateral;
+$font-size: 16px;
+$line-height: 5px;
+$blue: rgb(0,0,255);
+
+/*
+Folha de estilo
+Versão #{$versao}
+Data #{$data}
+*/
+
+
+div.#{$class}{
+	width: 100%;
+	font-size: #{$font-size} / #{$line-height} sans-serif;
+	color: #{$blue}
+}
+
+$n: 5px;
+
+p{
+	//border-width: calc(2* $n); /*Não funciona*/
+}
+
+div{
+	//width: calc(100% - $n); /*Não funciona*/
+}
+
+p{
+	border-width: calc(2 * #{$n}); /*Funciona*/
+}
+
+div{
+	width: calc(100% - #{$n});
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+Folha de estilo
+Vers├úo 1.0.2
+Data 20/02/2016
+*/
+div.lateral {
+  width: 100%;
+  font-size: 16px / 5px sans-serif;
+  color: blue; }
+
+p {
+  border-width: calc(2 * 5px);
+  /*Funciona*/ }
+
+div {
+  width: calc(100% - 5px); }
+
+/*# sourceMappingURL=style.css.map */
