@@ -1,0 +1,58 @@
+//Variaveis
+
+///nomes-base
+
+$color-text : #333333;
+$color-text-lightest: #ffffff;
+$color-text-light: #eeeeee;
+$color-text-darket: #000000;
+
+
+$boder-width: 10px;
+$boder-width-1: 15px;
+$boder-width-2: 30px;
+$boder-width-3: 45px;
+
+
+p{
+	color: $color-text;
+}
+
+
+//--------------------------------------------------------------------
+
+//Escopo de variáveis
+
+
+
+//Escopo Global
+$color_um: lime;
+$color_dois: black;
+
+h1{
+	//Escopo Local
+	$color_um: red;
+	color: $color_um;
+}
+
+a{
+	//Escopo Global
+	$color_tres: orange !global;
+	color: $color_tres;
+}
+
+body{
+	//Escopo Global
+	backgroud-color: $color_tres;
+}
+
+//Default para a variável ser válida apenas quando não foi utilizada no escopo global
+
+h4{
+	$color_quatro: #ffffff !default;
+	color: $color_quatro;
+}
+
+
+
+
